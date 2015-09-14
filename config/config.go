@@ -93,7 +93,7 @@ func Get() *Config {
 
 	cfgptr = &Config{}
 
-	data, err := ioutil.ReadFile("imagio.conf")
+	data, err := ioutil.ReadFile("/etc/imagio.conf")
 	if err != nil {
 		data = []byte(defaultCfg)
 	}

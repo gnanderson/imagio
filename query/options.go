@@ -1,12 +1,13 @@
 package query
 
 import (
-	"github.com/3d0c/imagio/config"
-	. "github.com/3d0c/imagio/utils"
 	"log"
 	"net/url"
 	"reflect"
 	"strconv"
+
+	"github.com/3d0c/imagio/config"
+	. "github.com/3d0c/imagio/utils"
 )
 
 var supportedOptions = map[string]interface{}{
